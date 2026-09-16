@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       decisionBadge.textContent = "NO / FULLY EVOLVED";
       decisionBadge.className = "badge evolve-no";
-      detailsPara.textContent = `${preEvoText}${formattedName} is fully evolved or does not evolve further.`;
+      detailsPara.textContent = `${preEvoText}${formattedName} is fully evolved.`;
     }
 
     resultDiv.classList.remove("hidden");
