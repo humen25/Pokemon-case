@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Should I Evolve This Pokémon?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="card">
+    <h1>Should I Evolve This Pokémon?</h1>
+    <label for="pokemon-select">Select a Pokémon:</label>
+    <select id="pokemon-select">
+      <option value="">-- Choose a Pokémon --</option>
+    </select>
+
+    <div id="result" class="hidden">
+      <img id="pokemon-img" src="" alt="Pokémon Sprite">
+      <h2 id="pokemon-name"></h2>
+      <div id="decision" class="badge"></div>
+      <p id="details"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
