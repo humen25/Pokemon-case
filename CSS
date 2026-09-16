@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 340px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#pokemon-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.evolve-yes { background-color: #2e7d32; }
+.evolve-no { background-color: #d32f2f; }
+.hidden { display: none; }
